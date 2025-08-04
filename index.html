@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community Notice Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏠 Kavi Nagar Digital Notice Board</h1>
+    <nav>
+      <a href="#announcements">Announcements</a>
+      <a href="#events">Events</a>
+      <a href="#market">Buy/Sell/Rent</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="announcements">
+      <h2>📢 Announcements</h2>
+      <div id="announcement-list"></div>
+      <button onclick="addAnnouncement()">➕ Add Announcement</button>
+    </section>
+
+    <section id="events">
+      <h2>📅 Events</h2>
+      <ul>
+        <li>🧹 Society Clean-up – Aug 10, 8AM</li>
+        <li>🏏 Cricket Match – Aug 15, 7AM</li>
+      </ul>
+    </section>
+
+    <section id="market">
+      <h2>💬 Buy/Sell/Rent</h2>
+      <p>Submit your listing using <a href="https://forms.gle/YOUR-FORM-ID" target="_blank">this Google Form</a>.</p>
+      <iframe src="https://docs.google.com/spreadsheets/d/e/YOUR-SHEET-ID/pubhtml?widget=true&amp;headers=false" width="100%" height="300"></iframe>
+    </section>
+
+    <section id="contacts">
+      <h2>📇 Important Contacts</h2>
+      <ul>
+        <li>President: Mr. Sharma – 9876543210</li>
+        <li>Electrician: Ravi – 9898989898</li>
+        <li>Security Gate 1: 9988776655</li>
+        <li>Police (Emergency): 100</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kavi Nagar RWA | Hosted on Vercel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
